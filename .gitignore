@@ -1,0 +1,21 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+*.suo
+*.swp
+*.DS_Store
+
+# Secrets / local env
+src/Bankampanya.Api/.env
+.env
+.env.*
+
+# Build / test artifacts
+TestResults/
+coverage/
+
+# Local runtime overrides
+src/Bankampanya.Api/appsettings.Local.json
+src/Bankampanya.Api/appsettings.*.local.json
